@@ -26,7 +26,7 @@ namespace SportsStore
             app.UseStatusCodePages();
             app.UseStaticFiles();
             if (env.IsDevelopment())
-            {
+            { 
                 app.UseDeveloperExceptionPage();
             }
 
@@ -35,7 +35,6 @@ namespace SportsStore
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapDefaultControllerRoute();
-                });
             });
         }
     }
