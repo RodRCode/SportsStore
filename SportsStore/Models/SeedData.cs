@@ -66,7 +66,7 @@ namespace SportsStore.Models
                     {
                         Name = "Unsteady Chair",
                         Description = "Secretly give your opponent a disadvantage",
-                        Category = "Watersports",
+                        Category = "Chess",
                         Price = 275
                     },
                     new Product
